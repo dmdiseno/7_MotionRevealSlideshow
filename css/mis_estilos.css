@@ -1,0 +1,71 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+}
+/* FONDO DE DESCRIPCION DE ARTISTA */
+.slide__title{
+    font-size: 3em;
+    color: rgba(255, 255, 255);
+}
+/* PREVIEW TITTLE */
+.preview__title {
+    background-color:rgba(229, 226, 226, 0.733);
+    color: rgba(0, 0, 0, 0.8);
+}
+/* PREVIEW CONTENT */
+/* .preview__content {
+	column-count: 3;
+	position: relative;
+	text-align: left;
+	padding: 0 1rem;
+} */
+.preview__content {
+	column-count: 1;
+	position: relative;
+	text-align: justify;
+	opacity: 0;
+    padding: 0 1rem;
+    
+}
+
+.preview__content p{
+    background-color:rgba(229, 226, 226, 0.733);
+    color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    border-radius: 5px;  
+}
+/* NAVEGACION LATERAL */
+.slidenav__item {
+	/* pointer-events: auto;
+	border: 0;
+	background: none;
+	padding: 1rem;
+	margin: 0.85rem;
+	text-transform: inherit;
+	position: relative;
+	line-height: 1; */
+    color: rgba(252, 251, 250, 0.747);
+    text-transform: uppercase;
+    background-color:rgba(41, 101, 223, 0.733);
+
+}
+/* Top Navigation Style */
+.codrops-links {
+	position: relative;
+    display: flex;
+    flex-direction:column;
+	justify-content: left;
+	text-align: left;
+	white-space: nowrap;
+    font-size: 0.85rem;
+    background-color: lightslategrey;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+
